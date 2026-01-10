@@ -1,0 +1,10 @@
+path: C:/Users/sai78/Desktop/OBJECT_DETECTION/datasets
+
+train: train/images  # Relative to path above
+val: val/images      # Relative to path above
+
+names:
+  0: banana
+  1: snake fruit
+  2: dragon fruit
+  3: pineapple
