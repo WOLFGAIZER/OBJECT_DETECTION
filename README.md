@@ -69,11 +69,3 @@ This dataset is intended for training and evaluating object detection models spe
 * Automated fruit recognition in various applications.
 * Benchmarking the performance of object detection models on this specific set of fruits.
 
-
-## Acknowledgements
-
-I used Label Studio For annotation.
-
-## Contact
-
-Email: aman.kr.ak03@proton.me
