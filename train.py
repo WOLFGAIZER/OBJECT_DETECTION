@@ -20,8 +20,7 @@ def train_model():
         scale = 0.5,
         degrees = 15.0,
         mosaic = 1.0,
-        mixup = 0.1,
-        blur = 0.1             
+        mixup = 0.1,          
     )
 
 if __name__ == '__main__':

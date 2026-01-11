@@ -1,10 +1,12 @@
-path: C:/Users/sai78/Desktop/OBJECT_DETECTION/datasets
+# Path to the dataset root directory
+path: C:\Users\sai78\Desktop\OBJECT_DETECTION\fruit-detection-dataset\fruit-detection-dataset
 
-train: train/images  # Relative to path above
-val: val/images      # Relative to path above
+# Paths relative to the 'path' above
+train: images/train
+val: images/val
 
-names:
-  0: banana
-  1: snake fruit
-  2: dragon fruit
-  3: pineapple
+# Number of classes
+nc: 9
+
+# List of class names (Fixed the kiwi typo)
+names: ["apple", "avacado", "banana", "guava", "kiwi", "mango", "orange", "peach", "pineapple"]

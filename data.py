@@ -9,7 +9,7 @@ IMG_DIR = os.path.join(BASE_DIR, "images")
 ANN_DIR = os.path.join(BASE_DIR, "annotations") 
 
 CLASSES = ["apple", "banana", "orange"] 
-CLASS_MAP = {"banana": 0, "snake fruit": 1, "dragon fruit": 2, "pineapple": 3}
+CLASS_MAP = {"apple": 0, "banana": 1, "orange": 2}
 
 def convert_bbox(size, box):
     dw = 1. / size[0]
